@@ -36,11 +36,11 @@ int main()
 			a = false;
 	}
 	if (!a) {
-		cout << "Not ok" << endl;
+		cout << " Not good :( " << endl;
 		return 1;
 	}
 	else
-		cout << "Ok" << endl;
+		cout << " Good :) " << endl;
 	system("pause");
 	return 0;
 }
