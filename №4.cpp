@@ -29,5 +29,6 @@ int main()
 	getline(cin, a);
 	big(a);
 	cout << a << endl;
+	system ( "pause" );
 	return 0;
 }
