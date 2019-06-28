@@ -29,7 +29,7 @@ int main()
 	int mas[] = { 0,3,0,0,0,3 };
 	bool a = true; // bool — логический; Один из 4-х спецификаторов
 	func("Nam rak vletel v karman", t1);
-	func("Techet rechka pechet pecka", t2);
+	func("Techet rechka pechet pechka", t2);
 	for (int i = 0; i < 6; i++)
 	{
 		if (t1[i] != arr[i] || t2[i] != mas[i])
