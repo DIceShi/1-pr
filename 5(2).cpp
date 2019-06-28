@@ -37,7 +37,7 @@ int main()
 	}
 	if (!a) {
 		cout << " Not good :( " << endl;
-		return 1;
+		return 0;
 	}
 	else
 		cout << " Good :) " << endl;
