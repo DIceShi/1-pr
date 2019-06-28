@@ -25,15 +25,15 @@ void big(string &s)
 }
 int main()
 {
-	string sa("NAM RAK VLETEL V KARMAN"),sb("TECHET RECHKA PECHET PECHKA");
+	string sa("ROZA UPALA NA LAPU AZORA"),sb("KLARA UKRALA U KARLA KORALI");
 	big(sa);
 	big(sb);
-	bool a = false;	if ((sa == "NaM rAk VlEtEl v KaRmAn ") ||(sb=="TeChEt ReChKa pEcHeT pEcHkA"))
+	bool a = false;	if ((sa == "RoZa uPaLa Na LaPu aZoRa") ||(sb=="KLaRa uKRaLa u KaRLa KoRaLi"))
 		a = true;
 	if (!a)
-		cout << "ERROR" << endl;
+		cout << " Not good:( " << endl;
 	else
-		cout << "Good" << endl;
+		cout << " Good:) " << endl;
 	system("pause");
 	return 0;
 }
