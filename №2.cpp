@@ -33,5 +33,6 @@ int main()
 	getline(cin,s);
     letters (s,mas);
     cout << "a = " << mas[0] << " " << "e = " << mas[1] << " " << "y = " << mas[2] << " " << "u = " << mas[3] << " " << "i = " << mas[4] << " " << "o = " << mas[5] << endl;
-	return 0;
+system ( "pause" );	
+return 0;
 }
