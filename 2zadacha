@@ -1,0 +1,16 @@
+ #include <iostream>
+using namespace std;
+int main()
+{double a, b;
+ cout << "Vvedite znachenie a: ";
+ cin >> a;
+ cout << "Vvedite znachenie b: ";
+ cin >> b;
+ cout << "Znachenie peremennyh do izmeneni9: a = " << a << ", b = " << b << endl;
+ b=b*a;
+ a=b/a;
+ b=b/a;
+ cout << "Znachenie peremennyh posle izmeneni9: a = " << a << ", b = " << b << endl;
+
+  return 0;
+}
